@@ -22,7 +22,7 @@ function HeroButtom() {
           <div className="bg-[url('/homeCards/support-banner-v3.jpg')]  md:bg-left h-full w-full bg-cover bg-center "></div>
         </div>
       </div>
-      {/* <section-2></section-2>*/}
+      {/* <section-2>*/}
       <div className="flex flex-col md:flex-row w-full bg-black text-white">
         <div className="relative w-full md:w-[70%] md:h-75 h-50 order-1 md:order-1">
           <div className="absolute inset-0 bg-[url('/homeCards/joinus-banner-img-spyro.png')] h-full w-full bg-cover bg-center "></div>

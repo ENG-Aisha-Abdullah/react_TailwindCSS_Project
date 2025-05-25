@@ -96,7 +96,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="public/homeCards/THPS-ELREY-IMAGE-TOUT.jpg"
+                src="/homeCards/THPS-ELREY-IMAGE-TOUT.jpg"
                 alt=""
               />
             </a>
