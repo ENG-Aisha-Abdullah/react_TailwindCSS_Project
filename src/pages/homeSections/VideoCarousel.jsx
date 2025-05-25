@@ -1,4 +1,5 @@
 import { Carousel } from "flowbite";
+import { Carousel } from "flowbite-react";
 // import React, { useState } from "react";
 
 function VideoCarousel() {
