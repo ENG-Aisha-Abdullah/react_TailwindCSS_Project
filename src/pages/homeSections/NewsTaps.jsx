@@ -119,7 +119,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="/homeCards/COD-BO6-RICOCHET-S03R-TOUT-A.webp"
+                src="/homeCards/COD-BO6-RICOCHET-S03R-TOUT-A.png"
                 alt=""
               />
             </a>
@@ -142,7 +142,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="/homeCards/CODE-MAM-2025-IMAGE-TOUT.webp"
+                src="/homeCards/CODE-MAM-2025-IMAGE-TOUT.png"
                 alt=""
               />
             </a>
@@ -165,7 +165,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="/homeCards/BO6-S03R-ANNOUNCEMENT-TOUT.webp"
+                src="/homeCards/BO6-S03R-ANNOUNCEMENT-TOUT.png"
                 alt=""
               />
             </a>

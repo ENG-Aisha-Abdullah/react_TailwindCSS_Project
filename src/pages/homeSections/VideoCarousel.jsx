@@ -61,7 +61,7 @@ function VideoCarousel() {
   //   );
 
   return (
-    <div className="relative w-full h-screen min-h-[630px] max-h-[1024px]">
+    <div className="relative w-full h-screen min-h-[630px] max-h-[1024px] ">
       <div
         id="video-carousel"
         className="relative w-full h-full  "
@@ -80,7 +80,7 @@ function VideoCarousel() {
               className="w-full h-screen min-h-[630px] max-h-[1024px] object-cover "
             />
             <div className="absolute inset-0 z-10"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+            <div className="absolute inset-0 flex flex-col items-center lg:items-start lg:px-10  justify-center text-center text-white z-20 px-4">
               <img src="/black-ops-6-full-logo.png" alt="Logo" className="w-150 h-40 mb-4" />
               <h2 className="text-3xl md:text-5xl font-bold mb-2">
               </h2>
@@ -104,7 +104,7 @@ function VideoCarousel() {
               className="w-full h-screen min-h-[630px] max-h-[1024px] object-cover"
             />
               <div className="absolute inset-0 z-10"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+            <div className="absolute inset-0 flex flex-col items-center lg:items-start lg:px-10  justify-center text-center text-white z-20 px-4">
               <img src="/black-ops-6-full-logo.png" alt="Logo" className="w-150 h-40 mb-4" />
               <h2 className="text-3xl md:text-5xl font-bold mb-2">
               </h2>
@@ -128,7 +128,7 @@ function VideoCarousel() {
               className="w-full h-screen min-h-[630px] max-h-[1024px] object-cover"
             />
               <div className="absolute inset-0 z-10"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+           <div className="absolute inset-0 flex flex-col items-center lg:items-start lg:px-10  justify-center text-center text-white z-20 px-4">
               <img src="/black-ops-6-full-logo.png" alt="Logo" className="w-150 h-40 mb-4" />
               <h2 className="text-3xl md:text-5xl font-bold mb-2">
               </h2>
@@ -152,7 +152,7 @@ function VideoCarousel() {
               className="w-full h-screen min-h-[630px] max-h-[1024px] object-cover"
             />
               <div className="absolute inset-0 z-10"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+            <div className="absolute inset-0 flex flex-col items-center lg:items-start lg:px-10  justify-center text-center text-white z-20 px-4">
               <img src="/black-ops-6-full-logo.png" alt="Logo" className="w-150 h-40 mb-4" />
               <h2 className="text-3xl md:text-5xl font-bold mb-2">
               </h2>
@@ -176,7 +176,7 @@ function VideoCarousel() {
               className="w-full h-screen min-h-[630px] max-h-[1024px] object-cover"
             />
               <div className="absolute inset-0 z-10"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+           <div className="absolute inset-0 flex flex-col items-center lg:items-start lg:px-10  justify-center text-center text-white z-20 px-4">
               <img src="/black-ops-6-full-logo.png" alt="Logo" className="w-150 h-40 mb-4" />
               <h2 className="text-3xl md:text-5xl font-bold mb-2">
               </h2>
