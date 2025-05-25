@@ -1,0 +1,196 @@
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+.bg-black-gray{
+  background: radial-gradient(100% 100% at 50.52% 0%, #464545 0%, #000000 100%);
+}
+.card{
+  background: radial-gradient(100% 100% at 50.52% 0%, #686868 0%, #000000 100%);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 10px 20px;
+  overflow: hidden;
+}
+/* no color - hover blue color */
+.btn-hoverBlue{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  padding: 1em 0;
+  border-radius: 24px;
+  display: block;
+  text-align: center;
+  transition: box-shadow 250ms ease-out, border 300ms ease-out, background 300ms ease-out;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  font-weight: bold;
+  width: 225px;
+}
+.btn-hoverBlue:hover{
+  background: rgba(7, 104, 175, 0.7);
+  border: 1px solid #0768af;
+  box-shadow: inset 0 0 0 2px #0768af;
+}
+/* blue btn */
+.btnsmall{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  padding: 1em 0;
+  border-radius: 24px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  transition: box-shadow 250ms ease-out, border 300ms ease-out, background 300ms ease-out;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: bold;
+  background: rgba(7, 104, 175, 0.5);
+  box-shadow: inset 0 0 0 1px #0768af;
+  padding: 7px 15px 5px;
+}
+.btnsmall:hover{
+   background: rgba(7, 104, 175, 0.7);
+  border: 1px solid #0768af;
+  box-shadow: inset 0 0 0 2px #0768af;
+}
+.visiteMore{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  padding: 1em 0;
+  border-radius: 24px;
+  display: block;
+  text-align: center;
+  transition: box-shadow 250ms ease-out, border 300ms ease-out, background 300ms ease-out;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: bold;
+  background: rgba(7, 104, 175, 0.5);
+  box-shadow: inset 0 0 0 1px #0768af;
+  padding: 7px 15px 5px;
+  width: 225px;
+}
+.visiteMore:hover{
+   background: rgba(7, 104, 175, 0.7);
+  border: 1px solid #0768af;
+  box-shadow: inset 0 0 0 2px #0768af;
+}
+.blueHover{
+ transition: box-shadow 250ms ease-out, border 300ms ease-out, background 300ms ease-out;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  font-weight: bold;
+  background: rgba(7, 104, 175, 0.5);
+  box-shadow: inset 0 0 0 1px #0768af;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+.blueHover:hover{
+  background: rgba(7, 104, 175, 0.7);
+  border: 1px solid #0768af;
+  box-shadow: inset 0 0 0 2px #0768af;
+}
+.notify-cookiep {
+    opacity: 0.95;
+    background: #333;
+    color: #fff;
+    font: 400 10px/14px "Open Sans", sans-serif;
+    padding: 10px;
+    width: 225px;
+}
+.notify-cookie h2 {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.notify-cookie h2 span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.notify-cookie li {
+    padding-top: 0px;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 35px;
+    width: 50px;
+}
+
+
+/* all base color gray-300 */
+
+  /* * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } */
+/* 
+    body {
+      background: black;
+      overflow: hidden;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      visibility: hidden;
+      z-index: 0;
+      pointer-events: none;
+      animation: showSlide 37s infinite;
+    }
+
+    .slide-1 { animation-delay: 0s; }
+    .slide-2 { animation-delay: 6s; }
+    .slide-3 { animation-delay: 12s; }
+    .slide-4 { animation-delay: 18s; }
+    .slide-5 { animation-delay: 24s; }
+
+    @keyframes showSlide {
+      0% {
+        opacity: 0;
+        visibility: hidden;
+        z-index: 0;
+      }
+      5% {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+      }
+      20% {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+      }
+      25% {
+        opacity: 0;
+        visibility: hidden;
+        z-index: 0;
+      }
+      100% {
+        opacity: 0;
+        visibility: hidden;
+        z-index: 0;
+      }
+    }  */
