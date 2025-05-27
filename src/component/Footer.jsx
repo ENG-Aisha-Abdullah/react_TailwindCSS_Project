@@ -4,7 +4,7 @@ import { PiFacebookLogoBold } from "react-icons/pi";
 
 function Footer() {
   return (
-    <div className="bg-black text-white px-6 pt-10 border-t-1 border-gray-400">
+    <div className="bg-black text-white px-6 pt-10 bg-black-gray brightness-90">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto text-sm">
         {/* ACTIVISION.COM */}
         <div>
@@ -45,11 +45,11 @@ function Footer() {
         </div>
              {/* صور التصنيفات */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-1 justify-items-center py-8 ">
-        <img src="/footerImage/esrb-privacy.png" alt="ESRB Rating" className="h-10 object-contain" />
-        <img src="/footerImage/usk-18.png" alt="USK 18" className="h-10 object-contain" />
-        <img src="/footerImage/pegionline.png" alt="PEGI Online" className="h-10 object-contain" />
-        <img src="/footerImage/pegi-18.png" alt="PEGI 18" className="h-10 object-contain" />
-        <img src="/footerImage/esrb-privacy.png" alt="ESRB Privacy" className="h-10 object-contain" />
+        <img src="footerImage/esrb-privacy.png" alt="ESRB Rating" className="h-10 object-contain" />
+        <img src="footerImage/usk-18.png" alt="USK 18" className="h-10 object-contain" />
+        <img src="footerImage/pegionline.png" alt="PEGI Online" className="h-10 object-contain" />
+        <img src="footerImage/pegi-18.png" alt="PEGI 18" className="h-10 object-contain" />
+        <img src="footerImage/esrb-privacy.png" alt="ESRB Privacy" className="h-10 object-contain" />
       </div>
       </div>
 
@@ -67,7 +67,7 @@ function Footer() {
         </div>
 
         <img
-          src="/activision_logo.png"
+          src="activision_logo.png"
           alt="Activision Logo"
           width="200"
           className="mx-auto mb-2"

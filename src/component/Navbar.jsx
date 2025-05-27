@@ -12,7 +12,7 @@ function Navbar() {
         <div className="flex gap-15 items-center">
           <RxHamburgerMenu className=" absolute flex top-3 left-5 text-4xl md:hidden" />
           <Link to="/">
-          <img src="/activision_logo.png" alt="Logo" className="h-[30px]" />
+          <img src="activision_logo.png" alt="Logo" className="h-[30px]" />
           </Link> 
           <ul className="md:flex hidden gap-10 items-center text-gray-300">
             <li className="cursor-pointer hover:text-white">

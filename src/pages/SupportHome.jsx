@@ -2,7 +2,10 @@ import React from 'react'
 
 function SupportHome() {
   return (
-    <div>SupportHome</div>
+     <div className='bg-black h-screen text-gray-400 pt-20'>
+      
+
+    </div>
   )
 }
 

@@ -2,7 +2,10 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <div className='bg-black h-screen text-gray-400 pt-20'>
+      
+
+    </div>
   )
 }
 
