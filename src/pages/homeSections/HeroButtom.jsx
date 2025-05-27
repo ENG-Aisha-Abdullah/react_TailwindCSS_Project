@@ -19,13 +19,13 @@ function HeroButtom() {
           </div>
         </div>
         <div className="flex justify-end items-center md:w-[70%] text-gray-300 md:h-75 h-50  gap-4 bg-black">
-          <div className="bg-[url('homeCards/support-banner-v3.jpg')]  md:bg-left h-full w-full bg-cover bg-center "></div>
+          <div className="bg-[url('/homeCards/support-banner-v3.jpg')]  md:bg-left h-full w-full bg-cover bg-center "></div>
         </div>
       </div>
       {/* <section-2>*/}
       <div className="flex flex-col md:flex-row w-full bg-black text-white">
         <div className="relative w-full md:w-[70%] md:h-77 h-50 order-1 md:order-1 ">
-          <div className="absolute inset-0 bg-[url('homeCards/joinus-banner-img-spyro.png')] h-full w-full bg-cover bg-center "></div>
+          <div className="absolute inset-0 bg-[url('/homeCards/joinus-banner-img-spyro.png')] h-full w-full bg-cover bg-center "></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/100 via-transparent to-black/100"></div>
           <div className="hidden md:flex flex-col justify-center h-full px-10 gap-3 relative z-20">
             <h2 className="text-4xl font-bold text-blue-500 opacity-80">

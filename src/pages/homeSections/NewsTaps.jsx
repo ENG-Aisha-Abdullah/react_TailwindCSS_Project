@@ -16,28 +16,28 @@ function NewsTaps() {
           {/* other Taps */}
           <li className="cursor-pointer hover:text-white h-full flex items-center justify-center hover:bg-blue-300/30 ease-in duration-300 hover:border-b-5 hover:border-b-blue-500 brightness-80 hover:brightness-100 ">
             <img
-              src="activision_logo.png"
+              src="/activision_logo.png"
               alt="Logo"
               className="h-[30px] w-[100px] my-5 mx-5 "
             />
           </li>
           <li className="cursor-pointer hover:text-white h-full flex items-center justify-center hover:bg-blue-300/30 ease-in duration-300 hover:border-b-5 hover:border-b-blue-500 brightness-80 hover:brightness-100 ">
             <img
-              src="cod-logo.svg"
+              src="/cod-logo.svg"
               alt="Logo"
               className="h-[30px] w-[100px] my-5 mx-5  "
             />
           </li>
           <li className="cursor-pointer hover:text-white h-full flex items-center justify-center hover:bg-blue-300/30 ease-in duration-300 hover:border-b-5 hover:border-b-blue-500 grayscale hover:grayscale-0 px-1 ">
             <img
-              src="THPS3+4_Logo.svg"
+              src="/THPS3+4_Logo.svg"
               alt="Logo"
               className="h-[50px] w-[120px] "
             />
           </li>
           <li className="cursor-pointer hover:text-white h-full flex items-center justify-center hover:bg-blue-300/30 ease-in duration-300 hover:border-b-5 hover:border-b-blue-500  grayscale hover:grayscale-0 px-1">
             <img
-              src="crash-bandicoot-logo.png"
+              src="/crash-bandicoot-logo.png"
               alt="Logo"
               className="h-[50px] w-[120px] brightness-80 hover:brightness-100 "
             />
@@ -50,7 +50,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="homeCards/BO6-SEASON-04-NARRATIVE-TOUT.jpg"
+                src="/homeCards/BO6-SEASON-04-NARRATIVE-TOUT.jpg"
                 alt=""
               />
             </a>
@@ -69,11 +69,11 @@ function NewsTaps() {
 
           {/* card-2 */}
 
-          <div className=" card">
+          <div className="card">
             <a href="#">
               <img
                 className=""
-                src="homeCards/CODE-MAM-GY6-TOUT.jpg"
+                src="/homeCards/CODE-MAM-GY6-TOUT.jpg"
                 alt=""
               />
             </a>
@@ -96,7 +96,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="homeCards/THPS-ELREY-IMAGE-TOUT.jpg"
+                src="/homeCards/THPS-ELREY-IMAGE-TOUT.jpg"
                 alt=""
               />
             </a>
@@ -119,7 +119,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="homeCards/COD-BO6-RICOCHET-S03R-TOUT-A.png"
+                src="/homeCards/COD-BO6-RICOCHET-S03R-TOUT-A.png"
                 alt=""
               />
             </a>
@@ -142,7 +142,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="homeCards/CODE-MAM-2025-IMAGE-TOUT.png"
+                src="/homeCards/CODE-MAM-2025-IMAGE-TOUT.png"
                 alt=""
               />
             </a>
@@ -165,7 +165,7 @@ function NewsTaps() {
             <a href="#">
               <img
                 className=""
-                src="homeCards/BO6-S03R-ANNOUNCEMENT-TOUT.png"
+                src="/homeCards/BO6-S03R-ANNOUNCEMENT-TOUT.png"
                 alt=""
               />
             </a>
@@ -192,16 +192,3 @@ function NewsTaps() {
 }
 
 export default NewsTaps;
-
-// May 20, 2025
-// Stitch Returns in Season 04
-
-//  <div className="blog-copy">
-//                   Following a daring jailbreak conducted by his former
-//                   adversary, Stitch’s clandestine resurrection is achieved and
-//                   he returns to the fray with orders to crack the codes needed
-//                   to uncover the Pantheon moles. Get the backstory on his
-//                   intense rivalry turned uneasy alliance with Russell Adler and
-//                   deploy as the menacing ex-Perseus agent arriving in the Season
-//                   04 Battle Pass.
-//                 </div>

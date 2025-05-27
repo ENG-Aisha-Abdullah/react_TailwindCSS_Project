@@ -45,11 +45,11 @@ function Footer() {
         </div>
              {/* صور التصنيفات */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-1 justify-items-center py-8 ">
-        <img src="footerImage/esrb-privacy.png" alt="ESRB Rating" className="h-10 object-contain" />
-        <img src="footerImage/usk-18.png" alt="USK 18" className="h-10 object-contain" />
-        <img src="footerImage/pegionline.png" alt="PEGI Online" className="h-10 object-contain" />
-        <img src="footerImage/pegi-18.png" alt="PEGI 18" className="h-10 object-contain" />
-        <img src="footerImage/esrb-privacy.png" alt="ESRB Privacy" className="h-10 object-contain" />
+        <img src="/footerImage/esrb-privacy.png" alt="ESRB Rating" className="h-10 object-contain" />
+        <img src="/footerImage/usk-18.png" alt="USK 18" className="h-10 object-contain" />
+        <img src="/footerImage/pegionline.png" alt="PEGI Online" className="h-10 object-contain" />
+        <img src="/footerImage/pegi-18.png" alt="PEGI 18" className="h-10 object-contain" />
+        <img src="/footerImage/esrb-privacy.png" alt="ESRB Privacy" className="h-10 object-contain" />
       </div>
       </div>
 
@@ -68,7 +68,7 @@ function Footer() {
 
         <img
           src="activision_logo.png"
-          alt="Activision Logo"
+          alt="/Activision Logo"
           width="200"
           className="mx-auto mb-2"
         />
