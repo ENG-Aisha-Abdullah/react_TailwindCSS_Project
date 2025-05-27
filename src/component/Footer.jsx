@@ -67,8 +67,8 @@ function Footer() {
         </div>
 
         <img
-          src="activision_logo.png"
-          alt="/Activision Logo"
+          src="/activision_logo.png"
+          alt="Activision Logo"
           width="200"
           className="mx-auto mb-2"
         />

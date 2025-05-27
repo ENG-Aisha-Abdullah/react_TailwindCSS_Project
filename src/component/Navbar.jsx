@@ -19,17 +19,17 @@ function Navbar() {
              GAMES
             </li>
             <li >
-              <Link to="/about" className="flex items-center gap-2 hover:text-white">
+              <Link to="about" className="flex items-center gap-2 hover:text-white">
                 ABOUT <IoIosArrowDown />
               </Link>
             </li>
             <li >
-              <Link to="/Career" className="flex items-center gap-2 hover:text-white">
+              <Link to="career" className="flex items-center gap-2 hover:text-white">
                 CAREERS <IoIosArrowDown />
               </Link>
             </li>
             <li >
-              <Link to="/Support" className="flex items-center gap-2 hover:text-white">
+              <Link to="support" className="flex items-center gap-2 hover:text-white">
                 SUPPORT <IoIosArrowDown />
               </Link>
             </li>
